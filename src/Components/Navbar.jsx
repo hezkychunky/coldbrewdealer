@@ -7,9 +7,9 @@ export default function NavbarComp() {
     <Navbar fluid rounded className="h-24 fixed w-screen pt-6 z-30">
       <NavbarBrand as={Link} href="/">
         <img src="bottle-icon.svg" className="h-12 sm:h-12" alt="Coldbrew Dealer Logo" />
-        <span className="self-center whitespace-nowrap text-4xl font-extralight dark:text-white text-lime-600">COLDBREW DEALER</span>
+        <span className="self-center whitespace-nowrap text-2xl lg:text-4xl font-extralight dark:text-white text-lime-600">COLDBREW DEALER</span>
       </NavbarBrand>
-      <NavbarToggle/>
+      <NavbarToggle className="mr-10"/>
       <NavbarCollapse className="pr-10 bg-white">
         <NavbarLink href="/" className="text-xl font-light hover:font-medium" /*active*/>
           Home

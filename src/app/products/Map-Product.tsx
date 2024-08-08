@@ -1,12 +1,7 @@
-import ProductCard from "@/Components/Product-Card"
+import { IProductDetail } from "@/type";
 import { Card } from "flowbite-react";
 
-interface IProductDetail {
-   productname: string;
-   image: string;
-   notes: string;
-   price: string;
-}
+
 
 const productDetail: IProductDetail[] = [
    {
@@ -38,7 +33,7 @@ const productDetail: IProductDetail[] = [
 export default function MapProduct() {
    return productDetail.map((product) => {
       return (
-         <div className="flex flex-col">
+         <div className="flex flex-col hover:scale-110 duration-200" key={product.productname}>
             <Card className="max-w-sm" imgSrc={product.image} horizontal>
              <h5 className="text-3xl font-bold tracking-tight text-lime-600">
              {product.productname}
