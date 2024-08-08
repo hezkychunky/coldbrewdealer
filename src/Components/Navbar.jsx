@@ -5,8 +5,8 @@ import Image from "next/image";
 
 export default function NavbarComp() {
   return (
-    <div>
-      <Navbar fluid rounded className="h-24 fixed w-screen pt-6 z-30">
+    <div className="h-24 fixed w-screen pt-6 z-30">
+      <Navbar fluid rounded>
         <NavbarBrand as={Link} href="/">
           <Image src="/bottle-icon.svg" width={50} height={80} alt="Coldbrew Dealer Logo" />
           <span className="self-center whitespace-nowrap text-2xl lg:text-4xl font-extralight dark:text-white text-lime-600">COLDBREW DEALER</span>
