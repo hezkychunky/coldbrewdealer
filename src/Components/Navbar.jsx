@@ -1,12 +1,13 @@
 
 import Link from "next/link";
 import { Navbar, NavbarBrand, NavbarCollapse, NavbarLink, NavbarToggle } from "flowbite-react";
+import Image from "next/image";
 
 export default function NavbarComp() {
   return (
     <Navbar fluid rounded className="h-24 fixed w-screen pt-6 z-30">
       <NavbarBrand as={Link} href="/">
-        <img src="bottle-icon.svg" className="h-12 sm:h-12" alt="Coldbrew Dealer Logo" />
+        <Image src="bottle-icon.svg" className="h-12 sm:h-12" alt="Coldbrew Dealer Logo" />
         <span className="self-center whitespace-nowrap text-2xl lg:text-4xl font-extralight dark:text-white text-lime-600">COLDBREW DEALER</span>
       </NavbarBrand>
       <NavbarToggle className="mr-10"/>

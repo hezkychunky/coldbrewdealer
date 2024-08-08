@@ -7,7 +7,7 @@ export default function Reviews() {
       <Carousel>
         <div className="flex w-full h-full items-center justify-center bg-gray-300 bg-opacity-45 backdrop-blur-xl px-8 ">
         <Rating><RatingStar /><RatingStar /><RatingStar /><RatingStar /><RatingStar /><RatingStar filled={true} /></Rating>
-        It's awesome
+        It is awesome
         </div>
         <div className="flex h-full items-center justify-center bg-gray-300 bg-opacity-45 backdrop-blur-xl px-8 ">
         <Rating><RatingStar /><RatingStar /><RatingStar /><RatingStar /><RatingStar filled={false} /></Rating>
