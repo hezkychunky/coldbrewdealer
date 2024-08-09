@@ -5,7 +5,7 @@ import ProductsHome from "@/Components/Products";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Hero/> 
       <Overview/>
       <ProductsHome />
