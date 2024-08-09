@@ -4,9 +4,8 @@ import Image from "next/image";
 
 export default function NavbarComp() {
   return (
-    <div className="h-24 sticky top-0 z-20 w-screen bg-white py-2">
       <div className="flex flex-col md:flex-row">
-      <Link href="/" className="flex">
+        <Link href="/" className="flex">
           <Image src="/bottle-icon.svg" width={50} height={80} alt="Coldbrew Dealer Logo" />
           <span className="text-2xl md:text-4xl font-extralight dark:text-white text-lime-600">COLDBREW DEALER</span>
         </Link>
@@ -21,6 +20,5 @@ export default function NavbarComp() {
           <Link href="teams" className="md:text-xl text-sm font-light hover:font-medium">Teams</Link>
         </div>
       </div>
-    </div>
   );
 }
