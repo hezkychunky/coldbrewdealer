@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function ProductsHome() {
    return (
-    <div className="flex flex-col items-center bg-lime-600 h-auto">
+    <div className="flex flex-col items-center bg-lime-600 h-auto p-10">
        <div className="pt-24 text-4xl font-semibold">Product & Testimonials</div>
          <Link href="/products" className="pt-10 pb-4 hover:scale-105 hover:hue-rotate-60">
             <ProductCard/>

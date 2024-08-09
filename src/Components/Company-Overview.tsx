@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Overview() {
    return (
-     <div className="flex flex-col w-full h-auto bg-gray-100 items-center">
+     <div className="flex flex-col w-full h-auto bg-gray-100 items-center px-8 py-10">
        <div className="pt-20 text-2xl font-semibold text-lime-600">So, what exactly is <span className="font-semibold sm:text-3xl text-gray-700">COLDBREW DEALER ?</span> Here is the overview...</div>
        <p className="pt-16 px-24 text-lg">To be exact, let just call us as a cold brew coffee curator and distributor. We are here to collect and provide the best cold brew coffee available in the market. Our goal is to make our partners product become convenient & reachable by all of the caffeine hunter, like you!</p>
        <div className="pt-6 text-2xl justify-start font-semibold text-lime-600">How is that possible to distribute?</div>
