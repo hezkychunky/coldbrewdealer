@@ -1,4 +1,3 @@
-import Reviews from "@/Components/Reviews";
 import MapProduct from "./Map-Product";
 
 
