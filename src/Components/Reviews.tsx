@@ -1,23 +1,15 @@
-import { Carousel } from "flowbite-react";
-import { Rating, RatingStar } from "flowbite-react";
 
 export default function Reviews() {
   return (
-    <div className="h-24 w-3/5 mb-10 mt-8 ">
-      <Carousel>
-        <div className="flex w-full h-full items-center justify-center bg-gray-300 bg-opacity-45 backdrop-blur-xl px-8 ">
-        <Rating><RatingStar /><RatingStar /><RatingStar /><RatingStar /><RatingStar /><RatingStar filled={true} /></Rating>
-        It is awesome
-        </div>
-        <div className="flex h-full items-center justify-center bg-gray-300 bg-opacity-45 backdrop-blur-xl px-8 ">
-        <Rating><RatingStar /><RatingStar /><RatingStar /><RatingStar /><RatingStar filled={false} /></Rating>
-        Very convenient!
-        </div>
-        <div className="flex h-full items-center justify-center bg-gray-300 bg-opacity-45 backdrop-blur-xl px-8">
-        <Rating><RatingStar /><RatingStar /><RatingStar /><RatingStar /><RatingStar /><RatingStar filled={true} /></Rating>
-        Sleep is for the weak
-        </div>
-      </Carousel>
+    <div className="h-auto w-full mb-10 mt-8 text-xl text-gray-900 text-center text-balance">
+      What They Have Said About Our Products?
+      <div className="text-sm flex flex-wrap gap-2 justify-center my-5">
+        <div className="hover:shadow-md hover:scale-105 hover:shadow-slate-100 h-16 w-60 bg-white bg-opacity-40 px-2 flex justify-center items-center rounded-lg"><span>It is just awesome!</span></div>
+        <div className="hover:shadow-md hover:scale-105 hover:shadow-slate-100 h-16 w-60 bg-white bg-opacity-40 px-2 rounded-lg">Not only good for tastebuds, but also very convenient. Love it very much!</div>
+        <div className="hover:shadow-md hover:scale-105 hover:shadow-slate-100 h-16 w-60 bg-white bg-opacity-40 px-2 rounded-lg">Now I can fulfill my caffeine intake anytime. Sleep is just for the weak anyway</div>
+      </div>
+     
     </div>
   );
 }
+

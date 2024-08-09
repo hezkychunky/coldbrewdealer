@@ -1,5 +1,6 @@
 import ProductCard from "./Product-Card";
 import Link from "next/link";
+import Reviews from "./Reviews";
 
 export default function ProductsHome() {
    return (
@@ -9,6 +10,7 @@ export default function ProductsHome() {
             <ProductCard/>
          </Link>
          <Link href="/products" className="bg-white hover:scale-105 hover:hue-rotate-60 px-3 rounded-lg my-8"><span className="font-semibold text-lime-600 text-xl"> Click Here</span> to see all products</Link>
+         <Reviews/>
     </div>
      
    );
